@@ -5,7 +5,7 @@ let handler = m => m;
  let responses; 
  if (/^ميجو$/i.test(m.text)) { 
  responses = [ 
- 'تحت امرك حبي'
+ 'اي يروحي'
  ]; 
  } else if (/^بوووت|بموووووووووت|بوت$/i.test(m.text)) { 
      responses = [ 
@@ -17,7 +17,7 @@ let handler = m => m;
      ];
  }else if (/^تست$/i.test(m.text)) { 
      responses = [ 
-       'شغال شغال تست',  
+       'شغال يعم اشجيني',  
      ];
  }
  if (responses) { 
